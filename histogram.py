@@ -6,7 +6,7 @@ np.random.seed(42) # The np.random.seed(42) function sets the seed for the NumPy
 x = np.array([1,2,3,4,5,4])
 
 # Plot the histogram of the data
-plt.hist(x, bins=10, color='lightblue', edgecolor='black')
+plt.hist(x, bins=10, color='lightblue', edgecolor='black') # bins is x axis value. bins = 2 means 2 values in x axis between min(x) and max(x)
 plt.title('Histogram of Given Data')
 plt.xlabel('Value')
 plt.ylabel('Frequency')

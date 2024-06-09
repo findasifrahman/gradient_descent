@@ -16,3 +16,29 @@ it is also for Exploratory Data Analysis and probabilistic thinking that next nu
 Normal distribution is to use: 
     If your histogram closely matches the normal distribution curve, it suggests that your data is approximately normally distributed.
     If there are significant deviations, it indicates skewness, outliers, or a different distribution type, guiding you in further analysis or data transformation.
+How do you know if data is normally distributed?
+A histogram presents a useful graphical representation of the given data. When a histogram of distribution is superimposed with its normal curve, then the distribution is known as the normal distribution.
+
+scatter plot: A scatter plot is a diagram where each value in the data set is represented by a dot.
+
+Linear Regression: y=mx+c is a simple linear equation. ax+(b^2)y = 3 is also linear as x and y is not square value (x^2 = not linear). Linear equation and Linear regression is not same. In a linear regression coefficiant (a,b) is linear but x,y may not be linear
+Linera regression is the process of predicting y based on x. 
+The term regression is used when you try to find the relationship between variables.
+
+In Machine Learning, and in statistical modeling, that relationship is used to predict the outcome of future events
+
+Linear regression uses the relationship between the data-points to draw a straight line through all them.
+
+This line can be used to predict future values.
+at least 2 parameters are required to draw the line for linear regression. One for x and one for y. 
+If more than 2 parameters are given, then the line is called a multi-dimensional line.
+
+Python has methods for finding a relationship between data-points and to draw a line of linear regression. We will show you how to use these methods instead of going through the 
+mathematic formula.
+
+In the example below, the x-axis represents age, and the y-axis represents speed. We have registered the age and speed of 13 cars as they were passing a tollbooth.
+ Let us see if the data we collected could be used in a linear regression:
+
+for a equation y=mx+c, m is slope and c is intercept
+The r value ranges from -1 to 1. where 0 means no relationship, and 1 (and -1) means 100% related
+p is the p-value. A p-value of less than 0.05 is considered statistically significant. It means that there is strong evidence against the null hypothesis, 
