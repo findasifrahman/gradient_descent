@@ -42,3 +42,25 @@ In the example below, the x-axis represents age, and the y-axis represents speed
 for a equation y=mx+c, m is slope and c is intercept
 The r value ranges from -1 to 1. where 0 means no relationship, and 1 (and -1) means 100% related
 p is the p-value. A p-value of less than 0.05 is considered statistically significant. It means that there is strong evidence against the null hypothesis, 
+
+Multiple Regression: Multiple regression is like linear regression, but with more than one independent value, meaning that we try to predict a value based on two or more variables.
+
+In multiple regression, the values are calculated with the following formula:
+y = c + m1x1 + m2x2 + ... + mnxn
+The y is the dependent variable, c is the constant, m is the coefficient, and x is the independent variable.
+The p value in multiple regression , the p value used is a type 3 P-value. This essentially means that the p value shows the significance of the variable in the model assuming that all other variables exist in the model.
+
+Thus, adding or subtracting variables to your model could change your p-value slightly.
+
+scale: When data has different values, and even different measurement units, it can be difficult to compare them. What is kilograms compared to meters? Or altitude compared to time?
+The answer to this problem is scaling. We can scale data into new values that are easier to compare
+
+train/test: In Machine Learning models are to predict the outcome of certain events,To measure if the model is good enough, we can use a method called Train/Test.
+Train/Test is a method to measure the accuracy of model.It is called Train/Test because you split the data set into two sets: a training set and a testing set.
+80% for training, and 20% for testing.
+train the model using the training set.
+test the model using the testing set.
+Train the model means create the model.
+Test the model means test the accuracy of the model.
+
+R2: R2, also known as R-squared. It measures the relationship between the x axis and the y axis, and the value ranges from 0 to 1, where 0 means no relationship, and 1 means totally related. The sklearn module has a method called r2_score() that will help us find this relationship

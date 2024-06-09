@@ -39,8 +39,8 @@ slp, intercept, r, p, std_err = stats.linregress(x, y)
 #The function takes the x and y values as arguments and returns the slope, intercept, r, p, and std_err values.
 # for a equation y=mx+c, m is slope and c is intercept
 # r is the correlation coefficient. It ranges from -1 to 1. If it is close to 1, it means that there is a strong positive correlation between the variables. 
-#If it is close to -1, it means that there is a strong negative correlation between the variables. If it is close to 0, it means that there is no correlation between the variables.
-# p is the p-value. A p-value of less than 0.05 is considered statistically significant. It means that there is strong evidence against the null hypothesis, 
+#If it is close to -1, it means that there is a strong negative correlation between the variables. If it is close to 0, it means than model is a bad fit. if it is close to 1 then its a good fit
+# p is the p-value. A p-value of less than 0.05 is considered that dependent variable is changing with independent variable. It means that there is strong evidence against the null hypothesis, 
 #so you reject the null hypothesis. a p value less then 0.05 means the coefficient is significant and greater than 0.05 means the coefficient is not significant
 # std_err is the standard error. It measures the accuracy of the coefficient. The lower the standard error, the better the coefficient.
 print(slp, intercept, r, p, std_err)
@@ -48,7 +48,7 @@ print(slp, intercept, r, p, std_err)
 # intercept 103.10596026490066 means that the line crosses the y-axis at 103.10596026490066 (y=mx+c and c is the intercept). so it means when x or age is 0 then speed is 103.10596026490066
 # slope -1.7512877115526118 means that the slope of the line is -1.7512877115526118. It means that for every unit increase in x or age, the speed decreases by 1.7512877115526118 units.
 # r=-0.758591524376155 means that there is a strong negative correlation between the variables. It means that the age and speed of the cars are negatively correlated. Its not perfect but strong
-# p=0.0026468739224561064 means that the coefficient is significant and less then 0.05. It means that with age the speed of the cars is decreasing
+# p=0.0026468739224561064 means that the coefficient is significant and less then 0.05. It means that with age(dependent variable) the speed(independent variable) is significantly decreasing and they are correlated
 # std_err=0.453536157607742 means that the accuracy of the coefficient is 0.453536157607742. The lower the standard error, the better the coefficient.
 
 def myfunc(x):
