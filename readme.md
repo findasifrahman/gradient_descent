@@ -1,0 +1,1 @@
+Gradient descent example using simple regression
